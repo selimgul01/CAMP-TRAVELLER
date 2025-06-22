@@ -1,12 +1,15 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Camp Traveller
+Bu proje, bir kamp ve seyahat web sitesinin ön yüzünü temsil eden, modern ve duyarlı bir kullanıcı arayüzüdür.
 
-Currently, two official plugins are available:
+Kullanılan Teknolojiler
+Bu projenin geliştirilmesinde aşağıdaki temel teknolojiler kullanılmıştır:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React.js: Kullanıcı arayüzünü oluşturmak için kullanılan bir JavaScript kütüphanesi. Proje, TypeScript yerine saf JavaScript ile geliştirilmiştir.
+Tailwind CSS: Hızlı ve verimli bir şekilde özel tasarımlar oluşturmak için kullanılan, Utility-First bir CSS çerçevesi.
+Swiper JS: Duyarlı ve dokunmatik dostu slider'lar (kaydırma elemanları) oluşturmak için kullanılmıştır.
+AOS (Animate On Scroll): Sayfa kaydırma sırasında elementlere animasyon efektleri eklemek için kullanılmıştır, bu da kullanıcı deneyimini zenginleştirir.
+Vercel: Projenin hızlı ve güvenilir bir şekilde dağıtılması (deploy edilmesi) için kullanılan bir platform.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-- https://camp-traveller-pi.vercel.app/ --
